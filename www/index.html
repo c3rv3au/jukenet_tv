@@ -34,7 +34,6 @@
 	
 	<!-- Scripts -->
 
-  <script src="/ui_builder/browser_cordova?project=jukenet"></script><script>var need_cordova=false;</script>
   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/async/2.6.2/async.min.js"></script>
 	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.5/angular.min.js"></script>
 	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.5/angular-route.min.js"></script>
@@ -48,7 +47,14 @@
   <div id="root"></div>
   <script type="text/javascript" src="cordova.js"></script>
 
-<script>document.addEventListener('deviceready', function () { var scriptTag = document.createElement('script'); scriptTag.src = 'http://www.toutrix.com/ui_builder/load_app?project=JukeNetTv'; document.head.appendChild(scriptTag); }, false);</script>
+<script>
+document.addEventListener('deviceready', function () {
+	alert("Device is ready, load JukeNetTv");
+	var scriptTag = document.createElement('script');
+	scriptTag.src = 'http://www.toutrix.com/ui_builder/load_app?project=JukeNetTv';
+	document.head.appendChild(scriptTag);
+}, false);
+</script>
 
 </body>
 </html>
