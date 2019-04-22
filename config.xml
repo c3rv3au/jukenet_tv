@@ -87,6 +87,14 @@
     <allow-intent href="sms:*" />
     <allow-intent href="mailto:*" />
     <allow-intent href="geo:*" />
+		<allow-navigation href="http://toutrix.com/*" />
+		<allow-navigation href="https://toutrix.com/*" />
+		<allow-navigation href="https://maxcdn.bootstrapcdn.com/*" />
+		<allow-navigation href="https://netdna.bootstrapcdn.com/*" />
+		<allow-navigation href="https://cdnjs.cloudflare.com/*" />
+		<allow-navigation href="http://code.jquery.com/*" />
+		<allow-navigation href="https://www.gstatic.com/*" />
+		<allow-navigation href="https://debug3.phonegap.com/*" />
     <platform name="android">
         <allow-intent href="market:*" />
     </platform>
