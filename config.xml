@@ -95,6 +95,8 @@
 		<allow-navigation href="http://code.jquery.com/*" />
 		<allow-navigation href="https://www.gstatic.com/*" />
 		<allow-navigation href="https://debug3.phonegap.com/*" />
+		<allow-navigation href="http://cloudflare-ipfs.com/*" />
+		<allow-navigation href="https://cloudflare-ipfs.com/*" />
     <platform name="android">
         <allow-intent href="market:*" />
     </platform>
